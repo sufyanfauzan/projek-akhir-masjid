@@ -1,0 +1,130 @@
+@media screen and (max-width: 1335px) {
+  .image-container img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+
+#nav-title {
+    font-size: 1em; /* Mengurangi ukuran font */
+}
+
+  .sec1 h1 {
+    font-size: 27px;
+    width: 30%;
+    float: left;
+  }
+
+  .sec2 h1,
+  .sec3 h1,
+  .sec5 h1 {
+    font-size: 38px;
+    width: 100%;
+    float: none;
+  }
+
+  .sec1 img {
+    margin-top: 20px;
+  }
+
+  .image-container img {
+    display: none;
+  }
+
+  .sec4 h1 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .sec1 h3,
+  .sec2 h3,
+  .sec3 h3,
+  .sec4 h3,
+  .sec5 h3 {
+    width: 100%;
+    float: none;
+  }
+
+
+
+
+  .container {
+    display: flex;
+    margin-top: 45px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .top-cards,
+  .bottom-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    float: none;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 1;
+    padding: 30px;
+    margin-right: 10px;
+    width: 200px;
+    height: 300px;
+    float: left;
+    font-size: 20.5px;
+    box-shadow: 10px 10px 10px #f5f5f5;
+  }
+
+  .container {
+    display: flex;
+    margin-top: 45px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .top-cards,
+  .bottom-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    float: none;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex: 1;
+    width: 100%;
+    height: 370px;
+    font-size: 20.5px;
+    box-shadow: 10px 10px 10px 10px #f5f5f5;
+  }
+
+.card-container5 {
+        flex-direction: column;
+        margin-top: 20px; 
+    }
+    
+    .card5 {
+        margin: 5px;
+    }
+    
+    .card5 img {
+        width: 100%;
+        height: auto; 
+    }
+
+
+  
+
+  .footer-grid {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-items: center;
+    text-align: center; 
+}
+}
